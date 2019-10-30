@@ -1,0 +1,17 @@
+{
+	"authors": [
+		"Ethan P. Reker"
+	],
+	"copyright": "Copyright © 2019, Ethan P. Reker",
+	"dflags-linux-dmd": ["-defaultlib=libphobos2.a"],
+    "dflags-osx-ldc": ["-static"],
+	"dflags-linux-ldc": ["-link-defaultlib-shared=false", "-fvisibility=hidden"],
+	"dflags-windows-ldc": ["-mscrtlib=libcmt"],
+	"dependencies": {
+		"dplug": "~>9",
+		"openssl": "~>2.0.1"
+	},
+	"description": "Example EVP symmetric key encryption/decryption using openssl in D",
+	"license": "Apache-2.0",
+	"name": "d-openssl-evp-example"
+}

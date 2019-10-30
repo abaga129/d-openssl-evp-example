@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/ctr-licensing
+ctr-licensing.so
+ctr-licensing.dylib
+ctr-licensing.dll
+ctr-licensing.a
+ctr-licensing.lib
+ctr-licensing-test-*
+*.exe
+*.o
+*.obj
+*.lst
